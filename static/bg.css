@@ -1,0 +1,7 @@
+body{
+    background: url(Background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: unset; */
+    /* position: relative;  */
+}

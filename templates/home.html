@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+    <link rel="stylesheet" type="text/css" href={{url_for('static', filename='styling.css')}}>
+</head>
+<body>
+    <form action="http://localhost:5000/digimon" method="POST">
+        <ul>
+        <li style='list-style-type: none;'>
+            <div class="col-xs-12" style="margin-left: 41%;margin-top: 4%">
+            <input class="form-group" id="Input_text" type="text"  name="digi" placeholder="Ketik Nama Digimon Favoritmu...">
+            </div>
+        </li>
+        <li style='list-style-type: none;'>
+            <button type="submit" class="btn btn-primary" style="margin-top: 4%; margin-left: 46%">Cari</button>
+        </li>
+        </ul>
+    </form>
+</body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
